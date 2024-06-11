@@ -3,7 +3,7 @@
         "experiment-introduction": {
             "language": "pt-br",
             "kind": "exp-lookit-text",
-            "showPreviousButton": false,
+            "showPreviousButton": true,
             "blocks": [
                 {
                     "text": "Bem-vindo ao estudo \"Como crianças brasileiras interpretam palavras concretas e abstratas?\""
