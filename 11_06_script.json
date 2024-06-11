@@ -1,0 +1,837 @@
+{
+    "frames": {
+        "experiment-introduction": {
+            "language": "pt-br",
+            "kind": "exp-lookit-text",
+            "showPreviousButton": false,
+            "blocks": [
+                {
+                    "text": "Bem-vindo ao estudo \"Como crianças brasileiras interpretam palavras concretas e abstratas?\""
+                },
+                {
+                    "text": "O estudo dura cerca de 5 minutos. Você não precisa estar com o seu bebê agora. Iremos explicar quais as etapas deste estudo, te apresentaremos o Termo de Consentimento Livre e Esclarecido para você declarar se está de acordo em participar desta pesquisa e, depois, pediremos para pegar o seu bebê no colo."
+                },
+                {
+                    "text": "Nesta pesquisa, queremos compreender como crianças brasileiras de 24 a 30 meses adquirem palavras concretas e abstratas do português brasileiro. Nosso objetivo é entender como crianças adquirem palavras abstratas, ou seja, conceitos que não têm uma contraparte física no mundo real, como a palavra pensamento, em comparação à palavra banana."
+                },
+                {
+                    "text": "Durante esta tarefa, seu filho verá sempre duas imagens pareadas (uma ao lado da outra) e escutará um áudio (referente a uma das imagens representadas)."
+                },
+                {
+                    "text": "Nós iremos observar para qual das imagens seu filho olhou após escutar o áudio."
+                },
+                {
+                    "text": "A seguir, você será convidado a ler o Termo de Consentimento para poder participar desta pesquisa. Em seguida, você verá duas perguntas sobre o seu bebê. Posteriormente, iremos orientar sobre como a gravação pode ser feita. Por fim, você poderá pegar a sua criança no colo e fazer um pequeno teste de gravação para ver se está tudo funcionando e se o rosto dela está bem visível para podermos analisar depois."
+                }
+            ]
+        },
+        "randomization_frame": {
+            "kind": "exp-lookit-randomizer",
+            "parameters": {
+                "baseAudioDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+                "audioTypes": [
+                    "ogg"
+                ],
+                "choices": [
+                    {
+                        "listName": "lista1",
+                        "stimuli": [
+                            "experimental-frame-1",
+                            "experimental-frame-2",
+                            "experimental-frame-3",
+                            "experimental-frame-4",
+                            "experimental-frame-5",
+                            "experimental-frame-6"
+                        ],
+                        "audios": [
+                            "fogao_lista1.ogg",
+                            "fome_lista1.ogg",
+                            "casaco_lista1.ogg",
+                            "medo_lista1.ogg",
+                            "tenis_lista1.ogg",
+                            "escuro_lista1.ogg"
+                        ]
+                    },
+                    {
+                        "listName": "lista2",
+                        "stimuli": [
+                            "experimental-frame-1",
+                            "experimental-frame-2",
+                            "experimental-frame-3",
+                            "experimental-frame-4",
+                            "experimental-frame-5",
+                            "experimental-frame-6"
+                        ],
+                        "audios": [
+                            "quente_lista2.ogg",
+                            "pizza_lista2.ogg",
+                            "amor_lista2.ogg",
+                            "tigre_lista2.ogg",
+                            "sujo_lista2.ogg",
+                            "buraco_lista2.ogg"
+                        ]
+                    },
+                    {
+                        "listName": "lista3",
+                        "stimuli": [
+                            "experimental-frame-1",
+                            "experimental-frame-2",
+                            "experimental-frame-3",
+                            "experimental-frame-4",
+                            "experimental-frame-5",
+                            "experimental-frame-6"
+                        ],
+                        "audios": [
+                            "balao.ogg",
+                            "sono_lista3.ogg",
+                            "beijo_lista3.ogg",
+                            "vazio_lista3.ogg",
+                            "abraco_lista3.ogg",
+                            "alegria_lista3.ogg"
+                        ]
+                    },
+                    {
+                        "listName": "lista4",
+                        "stimuli": [
+                            "experimental-frame-1",
+                            "experimental-frame-2",
+                            "experimental-frame-3",
+                            "experimental-frame-4",
+                            "experimental-frame-5",
+                            "experimental-frame-6"
+                        ],
+                        "audios": [
+                            "festa_lista4.ogg",
+                            "pijama_lista4.ogg",
+                            "frio_lista4.ogg",
+                            "prato_lista4.ogg",
+                            "carinho_lista4.ogg",
+                            "bala_lista4.ogg"
+                        ]
+                    }
+                ]
+            },
+            "randomization": {
+                "type": "choice",
+                "variable": "selectedList",
+                "choices": [
+                    "lista1",
+                    "lista2",
+                    "lista3",
+                    "lista4"
+                ]
+            }
+        },
+        "experiment_frame": {
+            "kind": "exp-lookit-experiment",
+            "parameters": {
+                "randomize": true
+            }
+        },
+        "survey-consent": {
+            "language": "pt-br",
+            "kind": "exp-lookit-survey-consent",
+            "title": "Termo de Consentimento de Participação no Estudo \"Como crianças brasileiras interpretam palavras concretas e abstratas?\"",
+            "items": [
+                {
+                    "kind": "text-block",
+                    "text": "Não esperamos que as crianças recebam qualquer benefício direto em participar de um estudo como este, embora elas geralmente gostam de participar. Não há riscos conhecidos ao participar de estudos desta natureza. No entanto, os bebês podem ficar agitados e os adultos entediados durante a realização dos testes. A participação do seu filho é totalmente voluntária, ou seja, não haverá nenhum tipo de benefício direto a você ou a ele por participar deste estudo. Você tem o direito de interromper a participação do seu filho a qualquer momento. Você também pode decidir se deseja que seus dados sejam retirados ou destruídos a qualquer momento. Sinta-se à vontade para fazer qualquer pergunta que você tiver a qualquer momento. Se houver mais alguma coisa que você queira saber depois de ler essas informações, entre em contato com a pesquisadora responsável por este estudo antes de iniciá-lo. Você é totalmente livre para aceitar ou recusar participar deste teste, sem precisar se justificar e sem ter quaisquer consequências para você ou seu bebê. Você pode levar o tempo que achar necessário para tomar sua decisão. Caso aceite, você poderá reconsiderar a sua decisão a qualquer momento e nos solicitar o apagamento dos seus dados ou dos dados do seu filho, sem nos informar o motivo, enviando um e-mail para oliviabogo@gmail.com. Se desejar, você também tem o direito de nos solicitar informações sobre os resultados gerais do estudo do qual participou com seu filho, entrando em contato com a pesquisadora."
+                },
+                {
+                    "kind": "text-block",
+                    "title": "Consentimento Livre e Esclarecido"
+                },
+                {
+                    "kind": "checkbox-item",
+                    "text": "Confirmo que li e entendi a os esclarecimentos referentes ao estudo acima mencionado. As informações foram totalmente explicadas para mim e sei que posso entrar em contato com a pesquisadora responsável, Olívia Bogo, por meio do e-mail oliviabogo@letras.ufrj.br, a qualquer momento para obter esclarecimentos e para fazer perguntas.",
+                    "label": "read_sheet"
+                },
+                {
+                    "kind": "checkbox-item",
+                    "text": "Sei como entrar em contato com a equipe de pesquisa se precisar.",
+                    "label": "contact"
+                },
+                {
+                    "kind": "text-block",
+                    "title": "Política de proteção de dados"
+                },
+                {
+                    "kind": "text-block",
+                    "text": "Os dados coletados serão vistos apenas pelo investigador principal, seus colaboradores e pesquisadores trabalhando na plataforma Lookit. Não estará vinculado a nenhuma informação de identificação (por exemplo, nome, endereço, e-mail) que você forneceu. Você pode escolher como deseja que usemos seus dados. A participação do seu filho neste estudo envolve o processamento de dados pessoais com base em informações que diz respeito a você como pai (por exemplo, os idiomas que você usa em casa, seu nível de educação) e o comportamento de seu filho durante nosso estudo (por exemplo, as gravações de sua webcam nos mostrando como ele olha/ouve tempo em relação aos estímulos que apresentamos durante o estudo). Este tratamento prossegue uma finalidade de investigação científica e tem como base legal a execução de uma missão de interesse público (art. 6.1.e do Regulamento Geral Europeu de Proteção de Dados - RGPD) e um acordo assinado para compartilhamento de dados entre a Plataforma Lookit, desenvolvida pelo MIT, com a Universidade Paris Cité. Como parte deste estudo, seu filho será filmado durante o teste pela sua própria webcam para que os pesquisadores possam analisar os resultados de seu comportamento durante o estudo (por exemplo, o tempo que ele passa assistindo/ouvindo as imagens/frases que serão apresentadas). A gravação do vídeo terá como foco exclusivamente seu filho. Nosso objetivo será apenas observar o tempo que seu filho passa olhando/ouvindo os estímulos e para isso olharemos principalmente para as imagens de seu rosto e a direção de seu olhar (esquerda ou direita). Os dados de vídeo coletados serão anonimizados e armazenados de forma segura no banco de dados do Lookit, em um servidor do próprio laboratório na nossa universidade. Os dados e vídeos do seu filho não serão divulgados fora do âmbito científico deste estudo. Ao publicar resultados ou compartilhar resultados com a comunidade científica, nenhuma informação que identifique seu filho (nome, email, data de nascimento, etc) será divulgada e a imagem do seu rosto será apagada.",
+                    "label": "further_information"
+                },
+                {
+                    "kind": "text-block",
+                    "text": "A equipe principal do Lookit no MIT também terá acesso aos dados coletados durante esta sessão, além dos dados da sua conta. Eles usam esses dados para executar e melhorar o Lookit, por exemplo, para fornecer informações técnicas apoio, verifique se a coleta de dados está funcionando bem ou se o Lookit está alcançando um grupo diversificado de famílias. O Lookit armazena dados indefinidamente, a menos que você retire suas gravações ao final do estudo.",
+                    "label": "staff"
+                },
+                {
+                    "kind": "checkbox-item",
+                    "text": "Dou permissão para que meus dados sejam usados de acordo com os objetivos do estudo de pesquisa, conforme descrito acima para fins de pesquisa.",
+                    "label": "use_data"
+                },
+                {
+                    "kind": "checkbox-item",
+                    "text": "Entendo que os resultados da análise das informações individuais do meu filho não serão fornecidos a mim.",
+                    "label": "no_personal_results"
+                },
+                {
+                    "kind": "multiple-choice",
+                    "question": "Concordo em participar desta pesquisa, tendo sido totalmente informado sobre os procedimentos, os riscos, os benefícios e a possibilidade de retirar a participacão dele, a qualquer momento, conforme as informações que me foram fornecidas.",
+                    "label": "public_database",
+                    "answers": [
+                        "Sim, li e concordo em participar",
+                        "Não, não concordo em participar"
+                    ]
+                }
+            ]
+        },
+        "language-question": {
+            "language": "pt-br",
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pequeno questionário sobre seu bebê",
+                    "properties": {
+                        "language": {
+                            "type": "string",
+                            "title": "A língua materna do seu bebê é o português brasileiro?",
+                            "enum": [
+                                "Sim",
+                                "Não"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "language"
+                    ]
+                },
+                "options": {
+                    "fields": {
+                        "language": {
+                            "enumNames": [
+                                "Sim",
+                                "Não"
+                            ],
+                            "widget": "radio"
+                        }
+                    }
+                }
+            },
+            "showPreviousButton": false
+        },
+        "bilingual-question": {
+            "language": "pt-br",
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Pequeno questionário sobre seu bebê",
+                    "properties": {
+                        "bilingual": {
+                            "type": "string",
+                            "title": "Seu bebê é bilíngue (tem mais de 30% do tempo dele exposto a outra língua que NÃO o português brasileiro)?",
+                            "enum": [
+                                "Sim",
+                                "Não"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "bilingual"
+                    ]
+                },
+                "options": {
+                    "fields": {
+                        "bilingual": {
+                            "enumNames": [
+                                "Sim",
+                                "Não"
+                            ],
+                            "widget": "radio"
+                        }
+                    }
+                }
+            },
+            "showPreviousButton": true
+        },
+        "video-quality": {
+            "language": "pt-br",
+            "kind": "exp-video-config-quality",
+            "title": "Verificando a posição e a webcam",
+            "introText": "A seguir, você verá as instruções para verificar se você está bem posicionado e se a webcam está capturando bem o seu rosto e o do bebê. Analisaremos para onde seu filho olhou, após escutar o áudio. Verifique cada um dos itens a seguir para garantir que possamos usar seu vídeo. Você terá que verificá-lo e fazer uma gravação de amostra para garantir que tudo está funcionando corretamente antes do início do teste. Depois, faremos um teste já com algumas imagens e os áudios para ver se está tudo funcionando perfeitamente!",
+            "showRecordMenu": true,
+            "requireTestVideo": true,
+            "completedItemText": "Feito!",
+            "instructionBlocks": [
+                {
+                    "text": "<strong>Certifique-se de que a webcam que você está usando esteja aproximadamente centralizada em relação a este monitor. Isso torna muito mais fácil saber se seu filho está olhando para a esquerda ou para a direita!</strong>",
+                    "image": {
+                        "alt": "Exemplo de imagens de uso de webcam externa centralizada no monitor ou webcam integrada no laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                    }
+                },
+                {
+                    "text": "<strong>Desligue todos os outros monitores conectados ao seu computador, além daquele com a webcam centralizada. (Se houver apenas um monitor, está tudo pronto!)</strong>",
+                    "image": {
+                        "alt": "Exemplo de imagens mostrando tela do laptop desligada se estiver usando monitor externo e webcam, ou monitor externo desligado se estiver usando webcam integrada e tela do laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
+                    }
+                },
+                {
+                    "text": "<strong>Verifique a iluminação certificando-se de que você pode ver claramente seus próprios olhos na visualização da webcam à direita. Pode ser necessário acender uma luz ou reduzir a luz que vem de trás de você.</strong>",
+                    "image": {
+                        "alt": "Exemplo de imagens mostrando a iluminação adequada para a webcam.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/lighting.png"
+                    }
+                },
+                {
+                    "text": "<strong>Se der, minimize as coisas interessantes, que são visíveis atrás ou ao lado da tela, e que podem chamar atenção do seu bebê. Se for possível, fique de frente para uma parede para que o seu bebê não se distraia com coisas externas. Se não der, não tem problema.</strong>",
+                    "image": {
+                        "alt": "Exemplo de imagens mostrando um ambiente sem distrações.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/distractions.png"
+                    }
+                }
+            ],
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "Você pode fazer uma breve gravação para ver como fica a configuração da sua webcam."
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "Se tiver qualquer problema para iniciar a gravação entre em contato com a pesquisadora."
+        },
+        "image-instruction": {
+            "language": "pt-br",
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Agora faremos um pequeno treinamento para que o seu bebê se familiarize com o tipo de tarefa. Verifique se vocês estão posicionados de form bem central, se o local que vocês estão é iluminado o suficiente para vermos o rosto de vocês e se não há nenhum outro distrator por perto, como outros monitores ou celulares. Senão, seu bebê pode se distrair. "
+                }
+            ]
+        },
+        "start-recording": {
+            "kind": "exp-lookit-start-recording",
+            "settings": {
+                "recorderType": "video"
+            }
+        },
+        "calibration-with-video": {
+            "kind": "exp-lookit-calibration",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "calibrationLength": 3000,
+            "calibrationPositions": [
+                "center",
+                "left",
+                "right",
+                "center"
+            ],
+            "calibrationAudio": "chimes",
+            "calibrationVideo": "attentiongrabber",
+            "doRecording": true,
+            "showWaitForUploadMessage": true,
+            "waitForUploadImage": "peekaboo_remy.jpg",
+            "pauseVideo": "attentiongrabber",
+            "pauseAudio": "pause",
+            "unpauseAudio": "return_after_pause",
+            "frameOffsetAfterPause": 0
+        },
+        "calibration-elmo": {
+            "kind": "exp-lookit-calibration",
+            "baseDir": "https://raw.githubusercontent.com/lookit/template-study-stim/master/tetris/",
+            "videoTypes": [
+                "mp4"
+            ],
+            "calibrationAudio": "ElmoYeah",
+            "calibrationVideo": "Elmo",
+            "calibrationLength": 2000,
+            "calibrationPositions": [
+                "center"
+            ],
+            "backgroundColor": "green",
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "prefam1": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "gato_fb",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/gato_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "sofa_fb",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/barco_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "fam1": {
+            "kind": "exp-lookit-images-audio",
+            "audioTypes": [
+                "ogg"
+            ],
+            "audio": "carro",
+            "images": [
+                {
+                    "id": "carro_fb",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/carro_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "sofa",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/sofa_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/",
+            "doRecording": true,
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "prefam2": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "carro_fb",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/carro_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "barco_fb",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/barco_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "fam2": {
+            "kind": "exp-lookit-images-audio",
+            "audioTypes": [
+                "ogg"
+            ],
+            "audio": "carro",
+            "images": [
+                {
+                    "id": "carro",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/carro_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "barco_fundobranco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/barco_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "training-instructions": {
+            "language": "pt-br",
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Nossa etapa de treinamento acabou. Vamos iniciar o experimento. Lembre-se de tentar manter seu bebê centralizado, com iluminação suficiente para vermos o rosto dele e evitar outros tipos de distrações, por exemplo, deixar o celular perto."
+                }
+            ]
+        },
+        "preexpo1": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "fogao",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/fogao_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "festa",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/festa_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "exposure1-1": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "fogao",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/fogao_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "festa",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/festa_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "preexpo2": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "pizza",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/pizza_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "pijama",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/pijama_fundobanco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "experimental-frame-2": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "pizza",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/pizza_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "pijama",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/pijama_fundobanco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "doRecording": true,
+            "durationSeconds": 6,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "preexpo3": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "casaco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/casaco_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "beijo",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/beijo_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "experimental-frame-3": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "casaco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/casaco_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "beijo",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/beijo_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "doRecording": true,
+            "durationSeconds": 6,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "preexpo4": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "tigre",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/tigre_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "prato",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/prato_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "experimental-frame-4": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "tigre",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/tigre_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "prato",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/prato_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/",
+            "autoProceed": true,
+            "doRecording": true,
+            "durationSeconds": 6,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "preexpo5": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "tenis",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/tenis_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "abraco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/abraco_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "experimental-frame-5": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "tenis",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/tenis_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "abraco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/abraco_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/",
+            "autoProceed": true,
+            "doRecording": true,
+            "durationSeconds": 6,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "preexpo6": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "buraco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/buraco_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "greybackground",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/greybackground.png",
+                    "displayDelayMs": 2000
+                },
+                {
+                    "id": "alegria",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/alegria_fundobranco.png",
+                    "position": "right",
+                    "displayDelayMs": 4000
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "autoProceed": true,
+            "durationSeconds": 6,
+            "doRecording": true,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "experimental-frame-6": {
+            "kind": "exp-lookit-images-audio",
+            "images": [
+                {
+                    "id": "buraco",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/buraco_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "alegria",
+                    "src": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/alegria_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/img/",
+            "autoProceed": true,
+            "doRecording": true,
+            "durationSeconds": 6,
+            "pageColor": "grey",
+            "maximizeDisplay": true
+        },
+        "stop-recording-with-video": {
+            "kind": "exp-lookit-stop-recording",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "video": "attentiongrabber",
+            "displayFullscreen": true,
+            "showProgressBar": true,
+            "waitForUploadMessage": false
+        },
+        "study-end": {
+            "language": "pt-br",
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Você terminou o experimento. Muito obrigado por participar! Fique à vontade para entrar em contato com os pesquisadores se tiver alguma dúvida."
+                },
+                {
+                    "text": "Este estudo foi aprovado pelo Comitê de Ética em Pesquisa da Universidade de Paris."
+                }
+            ]
+        }
+    },
+    "sequence": [
+        "experiment-introduction",
+        "survey-consent",
+        "language-question",
+        "bilingual-question",
+        "video-quality",
+        "video-config",
+        "image-instruction",
+        "start-recording",
+        "calibration-with-video",
+        "calibration-elmo",
+        "prefam1",
+        "calibration-elmo",
+        "fam1",
+        "calibration-elmo",
+        "prefam2",
+        "calibration-elmo",
+        "fam2",
+        "calibration-elmo",
+        "training-instructions",
+        "preexpo1",
+        "calibration-elmo",
+        "exposure1-1",
+        "calibration-elmo",
+        "preexpo2",
+        "calibration-elmo",
+        "experimental-frame-2",
+        "calibration-elmo",
+        "preexpo3",
+        "calibration-elmo",
+        "experimental-frame-3",
+        "calibration-elmo",
+        "preexpo4",
+        "calibration-elmo",
+        "experimental-frame-4",
+        "calibration-elmo",
+        "preexpo5",
+        "calibration-elmo",
+        "experimental-frame-5",
+        "calibration-elmo",
+        "preexpo6",
+        "calibration-elmo",
+        "experimental-frame-6",
+        "calibration-elmo",
+        "stop-recording-with-video",
+        "study-end"
+    ]
+}
