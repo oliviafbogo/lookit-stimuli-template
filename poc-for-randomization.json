@@ -1,0 +1,116 @@
+{
+    "frames": {
+        "test-audio-image": {
+            "audio": "fogao_lista1",
+            "images": [
+                {
+                    "id": "fogao",
+                    "src": "fogao_fundobranco.png",
+                    "position": "left"
+                },
+                {
+                    "id": "festa",
+                    "src": "festa_fundobranco.png",
+                    "position": "right"
+                }
+            ],
+            "nTrial": "1",
+            "kind": "exp-lookit-images-audio",
+            "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+            "audioTypes": [
+                "ogg"
+            ],
+            "pageColor": "grey",
+            "autoProceed": false,
+            "durationSeconds": 3,
+            "doRecording": false,
+            "maximizeDisplay": false
+        },
+        "test-trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "NTRIAL": 1,
+                    "audio": "t1-audio",
+                    "images": [
+                        {
+                            "src": "t1-src-image-left",
+                            "position": "left"
+                        },
+                        {
+                            "src": "t1-src-image-right",
+                            "position": "right"
+                        }
+                    ]
+                },
+                {
+                    "NTRIAL": 2,
+                    "audio": "t2-audio",
+                    "images": [
+                        {
+                            "src": "t2-src-image-left",
+                            "position": "left"
+                        },
+                        {
+                            "src": "t2-src-image-right",
+                            "position": "right"
+                        }
+                    ]
+                }
+            ],
+            "parameterSets": [
+                {
+                    "t1-audio": "fogao_lista1",
+                    "t2-audio": "pijama_lista4",
+                    "t1-src-image-left": "fogao_fundobranco.png",
+                    "t1-src-image-right": "festa_fundobranco.png",
+                    "t2-src-image-left": "pizza_fundobranco.png",
+                    "t2-src-image-right": "pijama_fundobanco.png"
+                },
+                {
+                    "t1-audio": "festa_lista4",
+                    "t2-audio": "pizza_lista2",
+                    "t1-src-image-left": "fogao_fundobranco.png",
+                    "t1-src-image-right": "festa_fundobranco.png",
+                    "t2-src-image-left": "pizza_fundobranco.png",
+                    "t2-src-image-right": "pijama_fundobanco.png"
+                },
+                {
+                    "t1-audio": "tenis_lista1",
+                    "t2-audio": "alegria_lista3",
+                    "t1-src-image-left": "tenis_fundobranco.png",
+                    "t1-src-image-right": "abraco_fundobranco.png",
+                    "t2-src-image-left": "buraco_fundobranco.png",
+                    "t2-src-image-right": "alegria_fundobranco.png"
+                },
+                {
+                    "t1-audio": "abraco_lista3",
+                    "t2-audio": "alegria_lista3",
+                    "t1-src-image-left": "tenis_fundobranco.png",
+                    "t1-src-image-right": "abraco_fundobranco.png",
+                    "t2-src-image-left": "buraco_fundobranco.png",
+                    "t2-src-image-right": "alegria_fundobranco.png"
+                }
+            ],
+            "commonFrameProperties": {
+                "sampler": "random-parameter-set",
+                "nTrial": "NTRIAL",
+                "kind": "exp-lookit-images-audio",
+                "baseDir": "https://raw.githubusercontent.com/oliviafbogo/lookit-stimuli-template/master/",
+                "audioTypes": [
+                    "ogg"
+                ],
+                "pageColor": "grey",
+                "autoProceed": false,
+                "durationSeconds": 3,
+                "doRecording": false,
+                "maximizeDisplay": false
+            }
+        }
+    },
+    "sequence": [
+        "test-audio-image",
+        "test-trials"
+    ]
+}
